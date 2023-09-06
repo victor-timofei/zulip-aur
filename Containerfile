@@ -1,6 +1,6 @@
 FROM ghcr.io/victor-timofei/arch-nightly:latest
 
-RUN yes | sudo -u builder paru -S zulip-desktop-bin  \
+RUN yes | sudo -u builder paru -S zulip-desktop  \
   pipewire \
   alsa-utils \
   && useradd \
